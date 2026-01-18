@@ -19,7 +19,7 @@ physical chip with Tiny Tapeout.
 To learn more, follow the tutorial at https://tinytapeout.com/digital_design/
 
 
-# Tiny Tapeout Project: 7-Segment Display & PWM / Animation Controller
+# Tiny Tapeout Project: 7-Segment Display: PWM / Animation Controller
 
 ## Overview
 
