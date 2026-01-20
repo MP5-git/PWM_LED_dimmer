@@ -36,7 +36,7 @@ module seg7_animator (
             // create a slow tick
             tick_counter <= tick_counter + 1;
 
-			if (tick_counter == 15'd20_000_000) begin //flash every 0.4 s at f_clk = 50MHz 
+			if (tick_counter == 25'd20_000_000) begin //flash every 0.4 s at f_clk = 50MHz 
                 tick_counter <= 0;
 
                 if (mode_i == 1'b0) begin
@@ -69,5 +69,6 @@ endmodule
 
 `endif
 `default_nettype wire
+
 
 
