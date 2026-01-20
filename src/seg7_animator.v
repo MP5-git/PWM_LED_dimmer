@@ -22,7 +22,7 @@ module seg7_animator (
     output reg  [6:0] seg_o      // 7-segment output
 );
 
-	reg [14:0] tick_counter;     // for timing
+	reg [24:0] tick_counter;     // for timing
     reg [2:0]  seg_index;        // which segment is active in rotation mode
     reg        flash_state;      // toggle state for flashing
 
@@ -69,6 +69,7 @@ endmodule
 
 `endif
 `default_nettype wire
+
 
 
 
